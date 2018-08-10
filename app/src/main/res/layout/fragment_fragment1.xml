@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dhy203dydhx.Fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/textOne"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+            <ImageButton
+                android:id="@+id/bt_ddrk0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="58dp"
+                android:src="@mipmap/bt_ddrk"
+                android:layout_alignParentLeft="true"
+                android:layout_weight="1"
+                />
+            <ImageButton
+                android:id="@+id/bt_jgsd0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/bt_jgsd"
+                android:layout_alignParentLeft="true"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <ImageButton
+                android:id="@+id/bt_spgl0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="58dp"
+                android:src="@mipmap/bt_spgl"
+                android:layout_alignParentLeft="true"
+                android:layout_weight="1"
+                />
+            <ImageButton
+                android:id="@+id/bt_ddgl0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/bt_ddgl"
+                android:layout_alignParentLeft="true"
+                />
+            <ImageButton
+                android:id="@+id/bt_gysgl0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/bt_gysgl"
+                android:layout_alignParentLeft="true"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <ImageButton
+                android:id="@+id/bt_tjbb0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="58dp"
+                android:src="@mipmap/bt_tjbb"
+                android:layout_alignParentLeft="true"
+                android:layout_weight="1"
+                />
+            <ImageButton
+                android:id="@+id/bt_khgl0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/bt_khgl"
+                android:layout_alignParentLeft="true"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
